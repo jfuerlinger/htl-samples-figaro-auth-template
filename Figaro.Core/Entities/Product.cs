@@ -9,7 +9,7 @@ namespace Figaro.Core.Entities
         [Required]
         public string ProductNr { get; set; }
 
-        [MinLength(1),MaxLength(20),DisplayName("Produktbez.")]
+        [MinLength(1),MaxLength(75),DisplayName("Produktbez.")]
         public string Name { get; set; }
 
         [DisplayName("Preis")]

@@ -22,7 +22,7 @@ namespace Figaro.ImportConsole
             Console.WriteLine("***************************");
             Console.WriteLine("          Import");
             Console.WriteLine("***************************");
-            Console.WriteLine("Import der Bäckerei-Daten in die Datenbank");
+            Console.WriteLine("Import der Figaro-Daten in die Datenbank");
             await using var unitOfWork = new UnitOfWork();
             Console.WriteLine("Datenbank löschen");
             await unitOfWork.DeleteDatabaseAsync();
